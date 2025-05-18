@@ -53,7 +53,7 @@
 
 ### 2. 🖥 Deploy on Pterodactyl Panel
 
-- Download your forked bot repository
+- Download your bot file
 - Login to your Pterodactyl panel
 - Upload the ZIP or extracted files
 - Extract the content inside your panel file manager
