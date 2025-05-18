@@ -50,29 +50,18 @@
 
 <p align="center"><img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/></p>
 
-### 2. 🔐 Get Your Session ID (optional)
 
-> **Pair Code Based Authentication**
-
-<p align="left">
-  <a href="https://taira-web-service.onrender.com/pair/" target="_blank">
-    <img src="https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black" alt="Get Pairing Code" />
-  </a>
-</p>
-
-<p align="center"><img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/></p>
-
-### 3. 🖥 Deploy on Pterodactyl Panel
+### 2. 🖥 Deploy on Pterodactyl Panel
 
 - Download your forked bot repository
 - Login to your Pterodactyl panel
 - Upload the ZIP or extracted files
 - Extract the content inside your panel file manager
 
-### 4. 🛠 Prepare Your Credentials
+### 3. 🛠 Prepare Your Credentials
 
 - Edit `settings.js` as needed
-- Upload your `creds.json` file into the `session` folder if you are using session id
+
   
 
 <p align="center"><img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/></p>
@@ -97,6 +86,8 @@
 
 - Set `index.js` as your startup script
 - Start the server to run MK-BOT
+- Wait until you get your pair Code and link to your whatsapp
+- Boom connected and enjoy 
 
 <p align="center"><img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/></p>
 
