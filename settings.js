@@ -1,75 +1,167 @@
-/*
+///SC RECODE BY DINZID VyL x Malvin King
+// © RECODE BY Malvin King 2022 - 2025
+// Cr : @XdKing2 
+//DO NOT DELETE CREDITS!! DELETE? = I'LL ENCRYPT EVERYTHING!! 
 
-██▓▒­░ ►▬ WELCOME ▬◄ ░▒▓██
+const chalk = require("chalk")
+const fs = require("fs")
+//auto presence update
+global.autoTyping = false //auto typing in group chat (true to enable, false to disable)
+global.autoRecord = false //auto recording (true to enable, false to disable)
+global.autoblockmorroco = true //auto block 212 (true to enable, false to disable)
+global.autokickmorroco = true //auto kick 212 (true to enable, false to disable) 
+global.antispam = false //auto kick spammer (true to enable, false to disable)
+//////////////////////////////////////////////////////////////////////////////////
 
-© Malvin King 
-WhatsApp Me : 263780166288
+//LIMIT//
 
- - Source ↓
- - t.me/malvintech 
- - wa.me/263780166288
- - https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+//=========EDIT THE THUMBNAIL MENU & ALLMENU PART==========//
 
-*/
+global.thumbnail = 'https://files.catbox.moe/7ud9t7.jpg', //YOUR MENU THUMBNAIL
+global.dinzmenu = 'https://files.catbox.moe/33o6jd.jpg', //YOUR MENU BUTTON THUMBNAIL
+/////////////////////////////////////////////////////////////////////////////////
 
-require("./all/module.js")
+//LIMIT//
 
-//========== Setting Owner ==========//
+/////////////////////// WELCOME SETTINGS ///////////////
+global.wlcmimg = 'https://files.catbox.moe/641pvo.jpg'
+global.leftimg = 'https://files.catbox.moe/33o6jd.jpg'
+global.wlcm = true //FOR AUTO WELCOME
+global.textwlcm = `
+┌─┉─ • ─┉─  ── .✦
+│Welcome new member, introduction please!
+│Name:
+│Ask:
+│Age:
+│Make sure to introduce yourself properly ૮₍꜆꜄ ˃ ³ ˂ ₎ა
+└─┉─¡! • !¡─┉─ ── .✦
+`
 
-global.owner = "263780166288" //replace with your phone number
-global.namaowner = "ᴍᴀʟᴠɪɴ ᴋɪɴɢ" //replace with your name
+///////////////////)/)) FAKE REPLY/FAKE QUOTED //////////////////))/
+global.replyyoimiya = 'https://files.catbox.moe/641pvo.jpg'
+global.replyMalvinID = 'https://files.catbox.moe/33o6jd.jpg'
+global.replydinz = 'https://files.catbox.moe/7ud9t7.jpg'
+global.reply = 'https://files.catbox.moe/33o6jd.jpg'
+global.replyviex = 'https://files.catbox.moe/641pvo.jpg'
+
+//////////////////////YOUR MENU DISPLAY SETTINGS//////////////////
+global.ig = '@techlord01' //YOUR INSTAGRAM NAME
+global.yt = 'malvintech2' //YOUR YOUTUBE NAME, IF NONE THEN LEAVE BLANK
+global.ttowner = 'malvinquotes' //YOUR TIKTOK NAME
+global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
+global.owner = ['263780166288'] // ALSO SET THIS IN DATABASE FOLDER 
+global.ownernomer = '263780166288' //YOUR NUMBER
+global.socialm = 'GitHub: -'
+global.location = 'Indonesia' 
+global.nameCreator = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
+/////////////////////////////////////////////////////////////////////////////////
 
 
-//======== Setting Bot & Link ========//
-global.namabot = "ᴍᴋ-𝚋𝚘𝚝" 
-global.version = "v3.5.0"
-global.foother = "ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
-global.linkgc = 'https://youtube.com/@malvintech2'
-global.linksaluran = "https://youtube.com/@malvintech2"
-global.linkyt = 'https://youtube.com/@malvintech2'
-global.packname = "ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴋ-ʙᴏᴛ"
-global.author = "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+//==================BOT SETTINGS===========================\\
+global.botname = "MK | BOT" //YOUR BOT NAME
+global.ownernumber = '263780166288' //YOUR NUMBER
+global.botnumber = '263780166288' //YOUR NUMBER
+global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
+global.idSaluran = "120363398430045533@newsletter" //YOUR CHANNEL ID
+global.idch = "120363398430045533@newsletter" //YOUR CHANNEL ID
+global.chat = '120363398430045533@newsletter'
+global.namaSaluran = "MK | MD"
+global.linkSaluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
+global.ownerNumber = ["263780166288@s.whatsapp.net"] //YOUR NUMBER
+global.ownerweb = "" //YOUR WEB//OPTIONAL
+global.websitex = "" //OPTIONAL
+global.wagc = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
+global.wach = 'https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
+global.saluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
+global.themeemoji = '🪀'
+global.wm = "Malvin King Tha Best"
+global.botscript = 'ʙᴏᴛ sᴄʀɪᴘᴛ ɪɴ\nlink : https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
+global.packname = "Made With ❤️ By"
+global.author = "\n\nLordMk\n Dev : Malvin"
+global.creator = "263780166288@s.whatsapp.net"
 
 
-//========== Setting Event ==========//
+////////////////////////////////////////////////////////
 
-// true or false as you like
-
-global.welcome = true
-global.autoread = false
-global.anticall = false
-global.autoreadsw = true // Auto-read statuses
-global.autolikesw = true // Auto-like statuses
-global.owneroff = false
-global.antibug = false
-
-global.caption = '> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
-
-
-//========= Setting Message =========//
-global.msg = {
-    "error": "🤖 *Oopsie!* Something went wrong. Maybe try again? Or blame the developer. Your call!",
-    "done": "✅ *Mission Accomplished!* All systems go, Mk finished the task!", 
-    "wait": "⏳ *Hold your horses!* I’m working on it... (No, seriously, I’m not slacking off.", 
-    "group": "*• Group Only* This feature is only for groups!", 
-    "private": "*• Private Chat* This feature is only for private chats!", 
-    "admin": "*• Admin Only* This feature is only for group admins!", 
-    "adminbot": "*• Bot Admin* This feature can be used when the bot is an admin", 
-    "owner": " 🚫 *Hold up!* This command is for the big boss only. You’re not the boss of me!", 
-    "developer": "*• Developer Only* This feature is only for developers"
+global.mess = {
+    wait: "*_ᴡᴀɪᴛ ᴛɪʟʟ ɪᴛ'ᴅ ᴘʀᴏᴄᴇssᴇᴅ._*",
+    success: "Success!",
+    on: "ᴇɴᴀʙʟᴇᴅ",
+    off: "ᴅɪsᴀʙʟᴇᴅ",
+    query: {
+        text: "Where's the text, please?",
+        link: "Where's the link, please?",
+    },
+    error: {
+        feature: "Sorry, there is a feature error. Please contact the bot developer via chat for it to be fixed.",
+    },
+    only: {
+        group: "Sorry, this feature is only available in groups.",
+        private: "Sorry, this feature is only available in private chats.",
+        owner: "Sorry, this feature is only available for the bot owner.",
+        admin: "Sorry, this feature is only available for bot admins.",
+        badmin: "Sorry, it looks like you are not an admin, so you can't use this feature.",
+        premium: "Sorry, you are not a premium user yet. To become a premium user, please contact the owner using .owner.",
+    }
 }
 
+//========================================\\
+global.decor = {
+	menut: '❏═┅═━–〈',
+	menub: '┊•',
+	menub2: '┊',
+	menuf: '┗––––––––––✦',
+	hiasan: '꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷ ͝ ꒦ ͝ ꒷',
+
+	menut: '––––––『',
+    menuh: '』––––––',
+    menub: '┊☃︎ ',
+    menuf: '┗━═┅═━––––––๑\n',
+	menua: '',
+	menus: '☃︎',
+
+	htki: '––––––『',
+	htka: '』––––––',
+	haki: '┅━━━═┅═❏',
+	haka: '❏═┅═━━━┅',
+	lopr: 'Ⓟ',
+	lolm: 'Ⓛ',
+	htjava: '❃'
+}
+
+//===========================//
+
+//new
+global.prefix = ['.']
+global.sessionName = 'session' // Jangan di ubah takut nanti error
+global.hituet = 0
+//media target
+global.thum = fs.readFileSync("./data/image/thumb.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./data/image/thumb.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./data/image/thumb.jpg") //ur error pic
+global.thumb = fs.readFileSync("./data/image/thumb.jpg") //ur thumb pic
+global.filename = "©ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
+global.defaultpp = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60' //default pp wa
+
+//menu image maker
+global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+
+global.keyopenai = "pk-pIWAlRroXTOAigkWdHcYvmlmgzEQXuoMWbVAaLAVZswSRbEB"
+//documents variants
+global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
+global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+global.doc4 = 'application/zip'
+global.doc5 = 'application/pdf'
+global.doc6 = 'application/vnd.android.package-archive'
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update ${__filename}`))
+	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
 	require(file)
 })
-
-//----------------------[ MALVIN-K ]----------------------//
-// Mk is like a cat. It might ignore you, but it knows what you’re up to. 🐱
-// It only responds when it feels like it. It’s the true master of mystery.
-// Please proceed with caution. Our code doesn’t bite, but it might give you an awkward look.
-// Malvin? If you’ve found this, you’ve unlocked a secret... but only if you truly understand it.
