@@ -1,4 +1,4 @@
-<!-- MK-BOT README HEADER -->
+1<!-- MK-BOT README HEADER -->
 
 <!-- Title -->
 <h1 align="center" style="font-family: 'Orbitron', sans-serif; text-shadow: 0 0 10px #00ffff, 0 0 20px #0088ff;">
@@ -74,13 +74,21 @@
   </a>
 </p>
 
-### 🚀 Deploy MK-BOT
+## 📡 DEPLOYMENT OPTIONS
 
-<p align="left">
-  <a href="https://dash.hmvhostings.com/register?ref=GKTSTyFY" target="_blank">
-    <img src="https://img.shields.io/badge/Deploy%20Bot-panel-FF0099?style=for-the-badge&logo=vercel&logoColor=white" alt="Deploy MK-BOT" />
-  </a>
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="https://bot-hosting.net/?aff=1097457675723341836" target="_blank"><img src="https://img.shields.io/badge/Bothosting-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://dashboard.katabump.com/auth/login#203630" target="_blank"><img src="https://img.shields.io/badge/Katambup-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://dash.hmvhostings.com/register?ref=GKTSTyFY" target="_blank"><img src="https://img.shields.io/badge/hmvhosting-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+    </tr>
+  </table>
+</div>
+
+
 
 ### ✅ Configure & Start
 
