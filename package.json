@@ -1,5 +1,5 @@
 {
-  "name": "Mk bot",
+  "name": "DOLLAR bot",
   "version": "4.0.5",
   "description": "Automated whatsapp md bot created using nodejs and baileys lib",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "Mk-bot","WhatsAppbot"
   ],
-  "author": "Malvin King",
+  "author": "DOLLAR King",
   "license": "Vyl",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
