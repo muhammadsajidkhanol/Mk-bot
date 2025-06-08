@@ -32,7 +32,7 @@ global.textwlcm = `
 │Welcome new member, introduction please!
 │Name:
 │Ask:
-│Age:
+│Age:25
 │Make sure to introduce yourself properly ૮₍꜆꜄ ˃ ³ ˂ ₎ა
 └─┉─¡! • !¡─┉─ ── .✦
 `
@@ -45,40 +45,40 @@ global.reply = 'https://files.catbox.moe/33o6jd.jpg'
 global.replyviex = 'https://files.catbox.moe/641pvo.jpg'
 
 //////////////////////YOUR MENU DISPLAY SETTINGS//////////////////
-global.ig = '@techlord01' //YOUR INSTAGRAM NAME
-global.yt = 'malvintech2' //YOUR YOUTUBE NAME, IF NONE THEN LEAVE BLANK
-global.ttowner = 'malvinquotes' //YOUR TIKTOK NAME
-global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
-global.owner = ['263780166288'] // ALSO SET THIS IN DATABASE FOLDER 
-global.ownernomer = '263780166288' //YOUR NUMBER
+global.ig = '@pubg.dollar.wow' //YOUR INSTAGRAM NAME
+global.yt = 'PUNG DOLLAR WOW' //YOUR YOUTUBE NAME, IF NONE THEN LEAVE BLANK
+global.ttowner = 'PUBG.DOLLAR.WOW.0' //YOUR TIKTOK NAME
+global.ownername = 'DOLLAR' //YOUR NAME
+global.owner = ['923404469538'] // ALSO SET THIS IN DATABASE FOLDER 
+global.ownernomer = '923404469538' //YOUR NUMBER
 global.socialm = 'GitHub: -'
-global.location = 'Indonesia' 
-global.nameCreator = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ'
+global.location = 'muhammadsajidkhanol' 
+global.nameCreator = 'DOLLAR'
 /////////////////////////////////////////////////////////////////////////////////
 
 
 //==================BOT SETTINGS===========================\\
-global.botname = "MK | BOT" //YOUR BOT NAME
+global.botname = DOLLAR" //YOUR BOT NAME
 global.ownernumber = '263780166288' //YOUR NUMBER
 global.botnumber = '263780166288' //YOUR NUMBER
-global.ownername = 'ᴅᴇᴠ : ᴍᴀʟᴠɪɴ ᴋɪɴɢ' //YOUR NAME
-global.idSaluran = "120363398430045533@newsletter" //YOUR CHANNEL ID
-global.idch = "120363398430045533@newsletter" //YOUR CHANNEL ID
-global.chat = '120363398430045533@newsletter'
-global.namaSaluran = "MK | MD"
-global.linkSaluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
-global.ownerNumber = ["263780166288@s.whatsapp.net"] //YOUR NUMBER
+global.ownername = 'DOLLAR' //YOUR NAME
+global.idSaluran = "    120363398430045533@newsletter" //YOUR CHANNEL ID
+global.idch = "    120363398430045533@newsletter" //YOUR CHANNEL ID
+global.chat = '    120363398430045533@newsletter'
+global.namaSaluran = "DOLLAR"
+global.linkSaluran = "https://www.whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05"
+global.ownerNumber = ["923404469538@s.whatsapp.net"] //YOUR NUMBER
 global.ownerweb = "" //YOUR WEB//OPTIONAL
 global.websitex = "" //OPTIONAL
-global.wagc = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
-global.wach = 'https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
-global.saluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
+global.wagc = "https://www.whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05"
+global.wach = 'https://www.whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05'
+global.saluran = "https://www.whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05"
 global.themeemoji = '🪀'
 global.wm = "Malvin King Tha Best"
-global.botscript = 'ʙᴏᴛ sᴄʀɪᴘᴛ ɪɴ\nlink : https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A'
+global.botscript = 'ʙᴏᴛ sᴄʀɪᴘᴛ ɪɴ\nlink : https://www.whatsapp.com/channel/0029VbAZuFFCBtxLljSGkS05'
 global.packname = "Made With ❤️ By"
-global.author = "\n\nLordMk\n Dev : Malvin"
-global.creator = "263780166288@s.whatsapp.net"
+global.author = "\n\nLordMk\n DOLLAR"
+global.creator = "923404469538@s.whatsapp.net"
 
 
 ////////////////////////////////////////////////////////
